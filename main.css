@@ -28,8 +28,8 @@ body {
 
 .arrow_left,
 .arrow_right {
-  font-size: 84px;
-  padding: 0;
+    font-size: 84px;
+    padding: 0;
 }
 
 .kattenErik {
@@ -40,7 +40,6 @@ body {
 };
 
 footer {
-    width: 100%;
     padding-block: 2rem;
     padding-inline: 1rem;
     background-color: #007968
