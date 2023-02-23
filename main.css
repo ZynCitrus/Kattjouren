@@ -5,5 +5,23 @@ body {
     background-size: cover;
     height: 100vh;
     background-image: linear-gradient(to right bottom, #957dad, #aa80b1, #bf83b2, #d485b0, #e789ab, #f08ca5, #f8909f, #ff9599, #ff9a94, #ff9e8f, #ffa48b, #ffa987);
-
+    padding:0;
+    margin:0;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space:pre-line;
+    height: 6rem;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding:1rem;
+}
+
+.header p {
+    font-weight: bold;
+}
+
