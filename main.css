@@ -25,7 +25,18 @@ body {
     font-weight: bold;
 }
 
+.arrow_left,
+.arrow_right {
+  font-size: 84px;
+  padding: 0;
+}
 
+.kattenErik {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    max-width: 80%;
+}
 
 
 footer {
