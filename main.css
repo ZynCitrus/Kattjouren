@@ -1,5 +1,23 @@
 body {
     width: auto;
     background: hotpink;
-
+    padding:0;
+    margin:0;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    white-space:pre-line;
+    height: 6rem;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding:1rem;
+}
+
+.header p {
+    font-weight: bold;
+}
+
