@@ -25,3 +25,22 @@ body {
     font-weight: bold;
 }
 
+footer {
+    width: 100%;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    background-color: #007968
+}
+
+.footer__container--info ul {
+    list-style: none;
+}
+
+.footer__container--info ul li {
+    line-height: 2rem;
+}
+
+
+
+
+
