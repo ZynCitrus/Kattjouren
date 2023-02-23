@@ -1,5 +1,28 @@
 body {
     width: auto;
     background: hotpink;
-
+    display: flex;
 }
+
+.image {
+    border: 3px;
+    border-style:solid;
+}
+
+.imgContainer, .bildText1{
+    text-align: center;
+    align-content: center;
+}
+
+.arrow_left,
+.arrow_right {
+  font-size: 84px;
+  padding: 0;
+}
+
+.kattenErik {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    max-width: 80%;
+};
