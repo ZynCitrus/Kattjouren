@@ -1,7 +1,7 @@
 document.querySelector('.kattenErik').innerHTML = `
 <div class="imgSlider">
 <div class="imgWrapper"><img class="kitten-img" height="200" width="300" name=slider src="https://www.shutterstock.com/image-photo/example-word-written-on-wooden-260nw-1765482248.jpg"/></div>
-
+<figcaption></figcaption>
 <div class="buttonWrapper">
 	<button class="material-symbols-outlined arrow_left">
 	arrow_left
@@ -41,7 +41,10 @@ let images = [
 ];
 
 function imageSliderPlus(){
-	document.slider.src = images[i].img; 
+	figcaption = document.querySelector('figcaption')
+
+	document.slider.src = images[i].img;
+	figcaption.innerHTML = images[i].alt;  
 	if(i < images.length - 1){
 	  i++; 
 	} else { 
@@ -50,7 +53,11 @@ function imageSliderPlus(){
 }
 
 function imageSliderMinus(){
-	document.slider.src = images[i].img; 
+	figcaption = document.querySelector('figcaption')
+
+	document.slider.src = images[i].img;
+	figcaption.innerHTML = images[i].alt;  
+
 	if(i < 1){
 		i = images.length -1;
 	}else {

@@ -80,6 +80,13 @@ h1{
     margin-top: 70px;
 }
 
+figcaption {
+    display:block;
+    background-color: #cce2cb;
+    font-size: 1.6rem;
+    color: black;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -144,6 +151,15 @@ i{
     }
     .footer__container--info ul li {
         line-height: 2.2rem;
+    }
+    figcaption {
+        display:block;
+        background-color: #cce2cb;
+        font-size: 1.6rem;
+        color: black;
+        width: 80%;
+        align-items: center;
+        margin: auto
     }
 }
 
