@@ -76,6 +76,7 @@ h1{
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    margin-top: 70px;
 }
 
 footer {
@@ -104,6 +105,11 @@ i{
         width: 80%;
         height: 400px;
     }
+    .buttonWrapper {
+        width: 80%;
+        margin: 0 auto;
+        
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -111,5 +117,10 @@ i{
         width: 70%;
         height: 500px;
         max-width: 1000px;
+    }
+    .buttonWrapper {
+        width: 70%;
+        max-width: 1000px;
+        bottom: 250px;
     }
 }
