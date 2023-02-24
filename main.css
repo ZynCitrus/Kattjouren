@@ -49,6 +49,8 @@ h1{
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    object-fit: cover;
+    height: 300px;
 }
 
 
@@ -87,9 +89,16 @@ i{
 }
 
 @media screen and (min-width: 750px) {
-    
+    .kitten-img{
+        width: 80%;
+        height: 400px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
-    
+    .kitten-img{
+        width: 70%;
+        height: 500px;
+        max-width: 1000px;
+    }
 }
