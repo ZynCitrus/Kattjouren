@@ -50,13 +50,26 @@ h1{
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    object-fit: cover;
+    height: 300px;
 }
 
 
 .arrow_left,
 .arrow_right {
-    font-size: 35px;
+    font-size: 60px;
     padding: 0;
+    background-color: transparent;
+    color: whitesmoke;
+    border: transparent;
+}
+
+.buttonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 120px;
 }
 
 .kattenErik {
@@ -64,6 +77,7 @@ h1{
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    margin-top: 70px;
 }
 
 footer {
@@ -93,8 +107,15 @@ i{
 }
 
 @media screen and (min-width: 750px) {
-
-    .header {
+    .kitten-img{
+        width: 80%;
+        height: 400px;
+    }
+    .buttonWrapper {
+        width: 80%;
+        margin: 0 auto;
+    
+        .header {
         justify-content: space-around;
     }
     footer {
@@ -123,8 +144,18 @@ i{
         line-height: 2.2rem;
     }
 }
+}
 
 @media screen and (min-width: 1440px) {
+    .kitten-img{
+        width: 70%;
+        height: 500px;
+        max-width: 1000px;
+    }
+    .buttonWrapper {
+        width: 70%;
+        max-width: 1000px;
+        bottom: 250px;
     footer {
         font-size: 2rem;
     }
@@ -132,7 +163,7 @@ i{
     i{
         font-size: 5rem;
     }
-
+}
     .footer__container--info ul li {
         line-height: 3rem;
     }
