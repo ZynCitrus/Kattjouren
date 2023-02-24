@@ -1,12 +1,15 @@
 document.querySelector('.kattenErik').innerHTML = `
 <div class="imgSlider">
 <div class="imgWrapper"><img class="kitten-img" height="200" width="300" name=slider src="https://www.shutterstock.com/image-photo/example-word-written-on-wooden-260nw-1765482248.jpg"/></div>
-<button class="material-symbols-outlined arrow_left">
-arrow_left
-</button>
-<button class="material-symbols-outlined arrow_right">
-arrow_right
-</button>
+
+<div class="buttonWrapper">
+	<button class="material-symbols-outlined arrow_left">
+	arrow_left
+	</button>
+	<button class="material-symbols-outlined arrow_right">
+	arrow_right
+	</button>
+</div>
 </div>
 `
 
