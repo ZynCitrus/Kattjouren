@@ -56,8 +56,19 @@ h1{
 
 .arrow_left,
 .arrow_right {
-    font-size: 35px;
+    font-size: 60px;
     padding: 0;
+    background-color: transparent;
+    color: whitesmoke;
+    border: transparent;
+}
+
+.buttonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 120px;
 }
 
 .kattenErik {
